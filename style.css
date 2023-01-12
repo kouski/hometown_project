@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Lora:wght@400;700&display=swap');
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.hero{
+    width: 720px;
+    height: 343px;
+    background-image: url(florian-wehde-WBGjg0DsO_g-unsplash.jpg);
+    background-size: cover;
+    margin: 0 auto;
+    font-family: 'Lobster', sans-serif;
+}
+
+.main{
+    width: 720px;
+    height: 378px;
+    background: #ffd60a;
+    margin: -20px auto;
+    font-family: 'lora',sans-serif;
+}
+
+.main h2{
+    font-size: 24px;
+}
+
+.section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 720px;
+    height: 394px;
+    margin: 0 auto;
+    background: #faf9f6;
+}
+
+.titulo{
+    padding-top: 20px;
+    margin-bottom: 0;
+    font-size: 32px;
+}
+
+.main h2{
+    padding-top: 30px;
+}
+
+.actividades{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.resumen{
+    margin-top: 0;
+    font-size: 18px;
+}
+
+#museo, #plaza, #parque{
+    width: 180px;
+    height: 100px;
+    border-radius: 20px;
+    transition: transform .2s;
+}
+
+#museo:hover, #plaza:hover, #parque:hover{
+    transform: scale(1.5);
+    cursor: pointer;
+}
+
+.article h4{
+    color: #003566;
+    padding: 0 5px;
+    font-size: 16px;
+}
+
+.article h3{
+    color: #000814;
+    font-size: 18px;
+    
+}
+
+
+.card{
+    width: 400px;
+    height: 280px;
+    background: #003566;
+    margin: 0 auto;
+    border-radius: 30px;
+    box-shadow: 5px 5px #ffc300;
+    
+    
+    
+}
+
+.card-information{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    
+}
+
+#foto-personal{
+    width: 180px;
+    height: 200px;
+    border: 2px solid #000814;
+    
+}
+
+.guide{
+    padding: 0 5px 0 20px;
+    color: #ffc300;
+    
+}
+
+.guide h3{
+    font-size: 24px;
+}
+.guide h4{
+    font-size: 16px;
+}
+
+.aboutme{
+    font-weight: 200;
+}
